@@ -40,8 +40,25 @@ The project was structured into 4 critical phases to ensure risk precision:
 * `/notebooks`: Contains the `.ipynb` file with the full end-to-end code.
 * `/visuals`: PCA scatter plots and recall evolution charts.
 
----
+  ## 📊 Dataset Access
+- **Source:** Credit Card Fraud Detection Dataset (284,807 transactions, 492 frauds)
+- **Download Link:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Main File:** `creditcard.csv` (≈150 MB)
+
+**How to Load in Python (code snippet):**
+```python
+import pandas as pd
+
+# If placed in a /data folder
+df = pd.read_csv('data/creditcard.csv')
+
+# Or directly in repository root
+df = pd.read_csv('creditcard.csv')
+```
 **Author:** José Carriço  
 **LinkedIn:** [linkedin.com/in/josé-carriço](https://www.linkedin.com/in/josé-carriço)  
 **Kaggle:** [kaggle.com/joscarrio](https://www.kaggle.com/joscarrio)  
+
 **Goal:** Transitioning to Data & AI Analyst | Focused on Risk Management & Fintech.
+
+Feel free to fork, star, or reach out for collaborations! 🚀
